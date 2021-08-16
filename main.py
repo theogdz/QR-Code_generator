@@ -1,11 +1,14 @@
 import qrcode
 import sys
+
 # Create an image from the QR code instance
-def QR(a,b):
-    qr = qrcode.make(a)
+def QR(link,name):
+    qr = qrcode.make(link)
 # Save the image
-    qr.save(b)
+    qr.save(name)
+
 if __name__ == "__main__":
     # First is link, second is name of QR pic
-    name = str(sys.argv[2]) + ".png"
-    QR(sys.argv[1],name)
+    link = input("Enter the link:\n")
+    name = "img\\" + input("How should we name the QR code? \n") + ".png"
+    QR(link,name)
