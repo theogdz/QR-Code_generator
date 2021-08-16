@@ -5,15 +5,22 @@ Use this program to create simple QR codes hassle free.
 Dependencies
 ---
 ``` pip install qrcode[pil] ```
+
 This will install qrcode and Pillow
 
 How to use
 ---
-* Clone this repository
-* Run the main file: ``` python main.py```
-* Insert the link you are converting
-* Insert the name of the QR code
-* The image will be found in img folder
+1 Clone this repository
+
+2 Run the main file: 
+
+``` python main.py```
+
+3 Insert the link you are converting
+
+4 Insert the name of the QR code
+
+5 The image will be found in img folder
 
 
 Notes
